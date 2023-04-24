@@ -19,7 +19,7 @@ function App() {
     })
     .catch((err) => {
       console.warn(err);
-      alert('Ошибка при получении данных');
+      alert('Something went wrong');
     })
     .finally(() => setLoading(false));
   },[]);
@@ -32,7 +32,7 @@ const onClickInvite = (id) => {
   if (invites.includes(id)) {
     setInvites(prev => prev.filter(_id => _id !== id))
   }else {
-    setInvites(prev => [... prev, id])
+    setInvites(prev => [...prev, id])
   }
 };
 

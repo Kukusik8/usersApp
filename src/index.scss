@@ -5,7 +5,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #dfe2ff;
+  background-color: #b8bef1;
 }
 
 * {
@@ -18,9 +18,9 @@ body {
   width: 400px;
   height: 600px;
   margin: 50px auto;
-  background-color: #fff;
+  background-color: #fdfcfc;
   border-radius: 30px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 5px rgb(10, 10, 10);
   padding: 40px;
 }
 
@@ -118,7 +118,7 @@ body {
   padding: 16px 15px;
   border-radius: 15px;
   font-size: 16px;
-  color: #fff;
+  color: #ffffff;
   width: 100%;
   border: 0;
   outline: none;

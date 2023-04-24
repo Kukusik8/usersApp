@@ -20,7 +20,7 @@ onClickSendInvites }) => {
         value={searchValue} 
         onChange={onChangeSearchValue} 
         type="text" 
-        placeholder="Найти пользователя..." 
+        placeholder="Find user..." 
         />
       </div>
       {isLoading ? (
@@ -45,11 +45,11 @@ onClickSendInvites }) => {
         </ul>
       )}
       {invites.length > 0 && (
-      <button  onClick={onClickSendInvites} className="send-invite-btn" src=''>Отправить приглашение
+      <button  onClick={onClickSendInvites} className="send-invite-btn" src=''>Send  invitation
       </button>
      )}
     </>
   );
-};
+}
 
 
